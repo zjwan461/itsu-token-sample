@@ -1,0 +1,7 @@
+itsu-token:
+  enable: true
+  type: custom
+  init:    auto-create-table: true
+    schema-location: classpath:example-custom.sql
+  web-register:    enable: true
+    

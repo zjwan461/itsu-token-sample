@@ -1,0 +1,9 @@
+itsu-token:
+  enable: true
+  type: simple
+  init:
+    auto-create-table: true
+#    schema-location: classpath:example.sql
+#    custom-schema: true  #声明开启自定义schema功能
+  web-register:
+    enable: true

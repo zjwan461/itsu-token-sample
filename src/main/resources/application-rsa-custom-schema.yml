@@ -1,0 +1,7 @@
+itsu-token:
+  enable: true
+  type: rsa
+  init:    auto-create-table: true
+    custom-schema: true
+    schema-location: classpath:example-rsa.sql
+  web-register:    enable: true

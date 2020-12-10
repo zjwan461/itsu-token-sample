@@ -3,12 +3,5 @@ server:
 spring:  datasource:
     username: root    url: jdbc:mysql://192.168.22.122:3306/local_db?useSSL=false&characterEncoding=utf8
     password: password
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-itsu-token:  enable: true
-  init:    auto-create-table: true
-    schema-location: classpath:example.sql
-    custom-schema: true  #声明开启自定义schema功能
-  web-register:    enable: true
-
+    driver-class-name: com.mysql.cj.jdbc.Driver  profiles:    active:    - rsa-custom-schema
 logging:  level:    ROOT: info

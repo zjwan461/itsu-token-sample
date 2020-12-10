@@ -1,0 +1,5 @@
+itsu-token:
+  enable: true
+  type: rsa
+  init:    auto-create-table: true
+  web-register:    enable: true
