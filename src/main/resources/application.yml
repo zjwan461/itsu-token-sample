@@ -1,7 +1,1 @@
-server:
-  port: 8080
-spring:  datasource:
-    username: root    url: jdbc:mysql://192.168.22.122:3306/local_db?useSSL=false&characterEncoding=utf8
-    password: password
-    driver-class-name: com.mysql.cj.jdbc.Driver  profiles:    active:    - custom-checker
-logging:  level:    ROOT: info
+server:  port: 8080spring:  datasource:    username: root    url: jdbc:mysql://localhost:3306/local_db?useSSL=false&characterEncoding=utf8    password: password    driver-class-name: com.mysql.cj.jdbc.Driver  profiles:    active:    - simplelogging:  level:    ROOT: info
